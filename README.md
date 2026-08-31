@@ -1,6 +1,6 @@
 # 🖋️ 墨痕 · 人味写作（Mó Hén）— write like a human
 
-> **仓库名 `mohen`**；技能内部包名保持 `zhangwen-craft`（兼容既有 Agent 绑定）。安装时把 `zhangwen-craft/` 目录放进 Agent 的 Skills 目录即可。
+> **仓库名与技能包名均为 `mohen`（墨痕 · 人味写作）**。安装时把 `mohen/` 目录放进 Agent 的 Skills 目录即可。
 
 一套「主流程 + 工具库」双层结构的**中文自媒体写作 Skill（v4.2）**：小红书 / 头条 / 百家号 / 公众号，套公式成稿，自动过「去AI味硬门槛 + AI味检测 + 质量自评」，让 AI 写的东西留下**人的墨迹**。
 
@@ -15,7 +15,7 @@
 
 ## 使用方法
 
-1. 将 `zhangwen-craft/`（SKILL.md + lib/ 共 8 个文件）放入支持 Skill 的 Agent 工具（Claude Code / Cursor / Cherry Studio 等）的 Skills 目录。
+1. 将 `mohen/`（SKILL.md + lib/ 共 8 个文件）放入支持 Skill 的 Agent 工具（Claude Code / Cursor / Cherry Studio 等）的 Skills 目录。
 2. 对 Agent 说「套公式写一篇小红书/头条/公众号文章」或「去AI味改写这段」。
 3. 也可在任何 AI 对话中把 `SKILL.md` 内容作为系统指令粘贴使用。
 
