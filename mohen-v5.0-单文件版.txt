@@ -70,7 +70,7 @@
 
 ### 步骤4 硬门槛自检（强制，禁止跳过）
 - **脚本或人工二选一，12项必须过完**：
-  1. **有脚本就跑**（快且不漏）：`D:\AI-Env\web-automation\.venv\Scripts\python.exe D:\AI-Env\scripts\小工具\check_draft.py <稿子txt>` → 读生成的 `_质检报告.txt`（稿子未落盘先写到 `outputs\临时测试\` 的txt）；自动查12门槛可自动化9项+AI词表+合规词+句长段长标点emoji
+  1. **有脚本就跑**（快且不漏）：`D:\AI-Env\web-automation\.venv\Scripts\python.exe D:\AI-Env\scripts\小工具\check_draft.py <稿子txt>`（脚本随仓库发布，见 `tools/check_draft.py`，纯标准库任何 python 可跑）→ 读生成的 `_质检报告.txt`（稿子未落盘先写到 `outputs\临时测试\` 的txt）；自动查12门槛可自动化9项+AI词表+合规词+句长段长标点emoji
   2. **没脚本就人工**（网页AI/他人环境）：见【库2】的2.3 逐项对照
 - 强制输出模板：
 ```
